@@ -5,7 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>الرسالة الأكاديمية - الصفوف</title>
   <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700;900&display=swap" rel="stylesheet">
+
+
   <style>
+    .school-title {
+        font-family: 'Cairo', sans-serif;
+        font-weight: 900; /* سميك */
+        color: red;
+        font-size: 32px;
+        text-align: center;
+        color: #8A1538;
+        font-size: 20px;
+    }
     @media (max-width: 768px) {
   .logo-container {
     flex-direction: column;
@@ -97,16 +109,16 @@
           <div class="grade-group">
               
             <div class="grade-buttons">
-              <button onclick="showTable('grade10')">📗الرسالة الأكادمية لمواد الصف العاشر</button>
+              <button onclick="showTable('grade10')"class="school-title">📗الرسالة الأكادمية لمواد الصف العاشر</button>
             </div>
           </div>
           <!-- الصف الحادي عشر -->
           <div class="grade-group">
             
             <div class="grade-buttons">
-              <button onclick="showTable('grade11-A')">📗 الرسالة الأكادمية لمواد الصف حادي عشر أدبي</button>
-              <button onclick="showTable('grade11-B')">📗 الرسالة الأكادمية لمواد الصف حادي عشر علمي</button>
-              <button onclick="showTable('grade11-T')">📗 الرسالة الأكادمية لمواد الصف  حادي عشر تكنولوجي</button>
+              <button onclick="showTable('grade11-A')"class="school-title">📗 الرسالة الأكادمية لمواد الصف حادي عشر أدبي</button>
+              <button onclick="showTable('grade11-B')"class="school-title">📗 الرسالة الأكادمية لمواد الصف حادي عشر علمي</button>
+              <button onclick="showTable('grade11-T')"class="school-title">📗 الرسالة الأكادمية لمواد الصف  حادي عشر تكنولوجي</button>
             </div>
           </div>
           <!-- جدول الصف العاشر -->
